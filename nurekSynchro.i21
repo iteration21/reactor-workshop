@@ -1,3 +1,5 @@
+tutek: https://help.github.com/en/articles/syncing-a-fork
+
 git clone git@github.com:iteration21/reactor-workshop.git
 cd reactor-workshop/
 git remote -v
