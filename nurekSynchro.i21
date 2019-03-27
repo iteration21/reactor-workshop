@@ -1,0 +1,26 @@
+git clone git@github.com:iteration21/reactor-workshop.git
+cd reactor-workshop/
+git remote -v
+git remote add upstream git@github.com:nurkiewicz/reactor-workshop.git
+git remote -v
+
+--- nie potrzebny test
+git log -3
+touch bla
+echo "bla" > bla
+cat bla
+git status
+git add bla
+git status
+git commit -m "bla"
+git push origin master
+---
+
+git fetch upstream
+git checkout master <- wybieram jaki chce zsynchronizowac branch
+git merge upstream/master <- synchro
+
+git log -3
+git status
+git push origin master
+
